@@ -1,0 +1,17 @@
+-- Crear la base de datos
+CREATE DATABASE bdlogin;
+
+-- Utilizar la base de datos
+USE dblogin;
+
+-- Crear la tabla "usuarios"
+CREATE TABLE usuarios (
+  username VARCHAR(50),
+  password VARCHAR(50)
+);
+
+-- Agregar los registros a la tabla "usuarios"
+INSERT INTO usuarios (username, password) VALUES
+  ('usuario1', 'clave1'),
+  ('usuario2', 'clave2'),
+  ('usuario3', 'clave3');
